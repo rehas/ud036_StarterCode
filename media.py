@@ -1,6 +1,7 @@
 import webbrowser
 
 class Movie():
+    """This class represents the structure of a movie """
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
     
     def __init__(self ,
