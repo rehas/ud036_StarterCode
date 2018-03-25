@@ -45,4 +45,5 @@ i_love_you_man = media.Movie(
 #Creating the array for movie list
 movies = [wedding_crashers, meet_joe_black, big_daddy, do_over, meet_the_fockers, i_love_you_man]
 
+#Passing the movies list to the webpage generator - fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
