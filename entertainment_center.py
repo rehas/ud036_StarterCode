@@ -1,10 +1,10 @@
 import media
 import fresh_tomatoes
 
-i_m_d = "https://ia.media-imdb.com/images/M/"  #media domain for imdb
-y_t_d = "https://www.youtube.com/watch?v="     #media domain for youtube
+i_m_d = "https://ia.media-imdb.com/images/M/"  # media domain for imdb
+y_t_d = "https://www.youtube.com/watch?v="     # media domain for youtube
 
-#Creating Movie Instances with media.Movie(Title, Storyline, PosterUrl, TrailerUrl)
+# Creating Movie Instances with media.Movie(Title, Storyline, PosterUrl, TrailerUrl)
 
 wedding_crashers = media.Movie(
     "Wedding Crashers",
@@ -42,8 +42,13 @@ i_love_you_man = media.Movie(
     i_m_d+"MV5BMTU4MjI5NTEyNV5BMl5BanBnXkFtZTcwNjQ1NTMzMg@@._V1_.jpg",  #NOQA
     y_t_d+"kRLf04gH7mc")
 
-#Creating the array for movie list
-movies = [wedding_crashers, meet_joe_black, big_daddy, do_over, meet_the_fockers, i_love_you_man]
+# Creating the array for movie list
+movies = [wedding_crashers,
+          meet_joe_black,
+          big_daddy,
+          do_over,
+          meet_the_fockers,
+          i_love_you_man]
 
-#Passing the movies list to the webpage generator - fresh_tomatoes
+# Passing the movies list to the webpage generator - fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
