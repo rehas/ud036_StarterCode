@@ -1,4 +1,4 @@
-# ud036_StarterCode
+# Udacity FullStack NanoDegree Project 1
 
 Berat Reha Sonmez, Movie Trailer website.
 
